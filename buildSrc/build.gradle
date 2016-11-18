@@ -1,0 +1,13 @@
+plugins {
+	id "nebula.kotlin" version "1.0.5"
+	id 'java-gradle-plugin'
+}
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	compile gradleApi()
+	compile 'org.jetbrains.kotlin:kotlin-stdlib'
+}
